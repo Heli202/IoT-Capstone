@@ -23,16 +23,17 @@ This simulation uses the following virtual components in Wokwi:
 ## Instructions
 1. Open Wokwi - Go to [link](https://wokwi.com).
 2. Create a new project.
-3. Use the provided diagram.json and .ino code from the GitHub repo to paste them into the relevant files.
-4. Create an Adafruit IO Account ([link](https://www.adafruit.com)) and add three feeds:
+3. Use the provided diagram.json and .ino code from the GitHub repo to paste them into the relevant files in Wokwi.
+4. Install the PubSubClient through the library manager in Wokwi.
+5. Create an Adafruit IO Account ([link](https://www.adafruit.com)) and add three feeds:
    * water-level,
    * flow,
    * alerts.
-5. Get your Adafruit credentials:
+6. Get your Adafruit credentials:
    * IO Username,
    * AIO Key.
-6. Replace the #define IO_USERNAME and #define IO_KEY values in the Wokwi code with your Adafruit credentials.
-7. Run the simulation:
+7. Replace the #define IO_USERNAME and #define IO_KEY values in the Wokwi code with your Adafruit credentials.
+8. Run the simulation:
    * Click the "Start Simulation" button in Wokwi.
    * Adjust the slide potentiometers to simulate different flow rates.
    * Adjust the ultrasonic sensor distance to simulate different water levels.
