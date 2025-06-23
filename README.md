@@ -44,4 +44,4 @@ This simulation uses the following virtual components in Wokwi:
 * Use SSL/TLS with MQTT for encrypted communication.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
